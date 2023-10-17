@@ -1,0 +1,510 @@
+    1  su - admin
+    2  zsh /tmp/miniconda_install.sh
+    4  cd /bin
+    6  cat cp
+    8  cd /
+   10  cd bin
+   12  ls -l
+   13  ls -lt
+   14  ls -lt | head
+   15  date ; sleep 2 ; date
+   18  cd ~\n\ncurl -O https://raw.githubusercontent.com/prog4biol/pfb2023/master/files/cuffdiff.txt
+   20  ls -l cuffdiff.txt
+   21  man ls
+   22  man curl
+   23  grep Chr7 cuffdiff.txt > fav_chr_cuffdiff.txt
+   25  head cuffdiff.txt
+   26  more cuffdiff.txt
+   28  grep Chr9 cuffdiff.txt >> fav_chr_cuffdiff.txt
+   29  wc -l fav_chr_cuffdiff.txt
+   30  wc -l cuffdiff.txt
+   31  grep Chr7 cuffdiff.txt | wc -l
+   32  grep Chr9 cuffdiff.txt | wc -l
+   33  683+660
+   34  683 + 660
+   36  cat blablabla.txt
+   37  cat blablabla.txt 2> errors.txt
+   38  cat errors.txt
+   40  cat errors.txt
+   41  pwd
+   43  cd miniconda3
+   49  cd ~
+   51  mkdir problemsets
+   52  cd problemsets
+   54  pwd
+   55  wget https://raw.githubusercontent.com/prog4biol/pfb2023/master/files/sequences.nt.fa
+   56  curl -O https://raw.githubusercontent.com/prog4biol/pfb2023/master/files/sequences.nt.fa
+   59  wc -l sequences.nt.fa
+   60  wc -c sequences.nt.fa
+   61  head -1 sequences.nt.fa
+   62  tail -3 sequences.nt.fa
+   63  cat sequences.nt.fa 
+   64  man tail
+   65  man head
+   66  head -10 sequences.nt.fa
+   67  head -n 10 sequences.nt.fa
+   68  head -n 1 sequences.nt.fa
+   69  head -1 sequences.nt.fa
+   70  grep > | wc -l
+   71  grep >* | wc -l
+   72  grep > sequences.nt.fa | wc -l
+   73  grep > sequences.nt.fa | wc -l
+   74  man grep
+   76  grep '>' sequences.nt.fa | wc -l
+   77  grep '>*' sequences.nt.fa | wc -l
+   78  grep '>'* sequences.nt.fa | wc -l
+   79  grep > sequences.nt.fa | wc -l
+   80  grep >* sequences.nt.fa | wc -l
+   82  man grep 
+   83  grep > sequences.nt.fa | wc -l
+   84  grep '>' sequences.nt.fa | wc -l
+   85  mv sequences.nt.fa cancer_genes.fasta
+   87  wc -l cancer_genes.fasta
+   88  cat cancer_genes.fasta
+   90  curl -O https://raw.githubusercontent.com/prog4biol/pfb2023/master/files/sequences.nt.fa
+   92  mv sequences.nt.fa cancer_genes.fasta
+   94  cat cancer_genes.fasta
+   95  grep '>' cancer_genes.fasta | wc -l
+   96  curl -O https://raw.githubusercontent.com/prog4biol/pfb2023/master/files/cuffdiff.txt 
+   98  head -10 cuffdiff.txt
+   99  man sort
+  100  sort -k 10 -r cuffdiff.txt > sorted.cuffdiff.out
+  102  head -10 cuffdiff.txt
+  103  head -10 sorted.cuffdiff.out
+  105  more sorted.cuffdiff.out
+  108  man cut
+  109  ls
+  110  sort -k 10 -nr cuffdiff.txt | head -n 100 | cut -f 1 | sort | uniq > differentially.expressed.genes.txt 
+  111  ls
+  112  head -10 differentially.expressed.genes.txt
+  113  ls
+  114  head sorted.cuffdiff.out
+  115  wc -l differentially.expressed.genes.txt
+  116  tail differentially.expressed.genes.txt
+  117  ls
+  118  man sort
+  119  ls
+  120  sort -k 10 -r cuffdiff.txt | head -n 100 | cut -f 1 | sort | uniq > differentially.expressed.genes.txt 
+  121  ls
+  122  sort -k 10 -r cuffdiff.txt > sorted.cuffdiff.out
+  123  ls
+  124  cat sorted.cuffdiff.out
+  125  more sorted.cuffdiff.out
+  126  ls
+  127  ls
+  128  ls
+  129  head differentially.expressed.genes.txt
+  130  head sorted.cuffdiff.out
+  131  wc -l differentially.expressed.genes.txt
+  132  ls -la
+  133  ls
+  134  cd ~
+  135  ls
+  136  ls -la
+  137  cat .zshrc
+  138  man sort
+  139  ls
+  140  cd problemsets
+  141  ls
+  142  vi test.txt
+  143  vim test.txt
+  144  ls
+  145  rm test.txt
+  146  ls
+  147  ls
+  148  cd ~
+  149  ls
+  150  cd Documents
+  151  ls
+  152  ls
+  153  cd ~
+  154  ls
+  155  vi first_vi_file.txt
+  156  nano first_vi_file.txt
+  157  nano first_vi_file.txt
+  158  vi first_vi_file.txt
+  159  vi first_vi_file.txt
+  160  vi first_vi_file.txt
+  161  vi first_vi_file.txt
+  162  vi first_vi_file.txt
+  163  vi first_vi_file.txt
+  164  vi first_vi_file.txt
+  165  vi first_vi_file.txt
+  166  vi first_vi_file.txt
+  167  vi first_vi_file.txt
+  168  ls
+  169  cd problemsets
+  170  ls
+  171  mkdir set1
+  172  ls
+  173  mv * set1
+  174  cd set1
+  175  ls
+  176  cd ..
+  177  ls
+  178  cd ..
+  179  ls
+  180  cd miniconda3
+  181  ls
+  182  cd lib
+  183  ls
+  184  cd ..
+  185  ls
+  186  cd condabin
+  187  l
+  188  ls
+  189  cd conda
+  190  ls
+  191  cd ..
+  192  ls
+  193  cd ..
+  194  ls
+  195  cd first_vi_file.txt
+  196  cat first_vi_file.txt
+  197  vi first_vi_file.txt
+  198  ls
+  199  ls
+  200  vi first_vi_file.txt
+  201  ls
+  202  perl -v
+  203  man env
+  204  vi first_vi_file.txt
+  205  ls
+  206  module avail
+  207  ls -la
+  208  cat .zshrc
+  209  ls
+  210  ls
+  211  cd ~
+  212  pwd
+  213  ls
+  214  cd problemsets
+  215  ls
+  216  ls
+  217  cd ..
+  218  ls
+  219  cd problemsets
+  220  ls
+  221  echo "# PFB_problemsets" >> README.md
+  222  git init
+  223  git add README.md
+  224  git commit -m "first commit"
+  225  git branch -M main
+  226  git remote add origin https://github.com/GabrielaFort/PFB_problemsets.git
+  227  git push -u origin main
+  228  ls
+  229  git push -u origin main
+  230  git push -u origin main
+  231  ls
+  232  ls -a
+  233  cat .git
+  234  pwd
+  235  git push -u origin main
+  236  ls -a
+  237  ls
+  238  ls -la
+  239  cd .git
+  240  ls
+  241  pwd
+  242  cd ..
+  243  pwd
+  244  ssh-keygen -t ed25519 -C "gabriela.fort@hci.utah.edu\n"
+  245  ls ~/.ssh
+  246  eval "$(ssh-agent -s)"
+  247  open ~/.ssh/config
+  248  touch ~/.ssh/config
+  249  ls -la
+  250  vi ~/.ssh/config
+  251  ls
+  252  cat ~/.ssh/config
+  253  cat  ~/.ssh/id_ed25519.pub
+  254  ls
+  255  cd ~
+  256  ls
+  257  cd ~
+  258  ls
+  259  cd problemsets
+  260  ls
+  261  git remote add origin git@github.com:GabrielaFort/PFB_problemsets.git
+  262  git push -u origin main
+  263  git remote add origin git@github.com:GabrielaFort/PFB_problemsets.git
+  264  git push -u origin main
+  265  git push -u origin main
+  266  ls -la
+  267  cd .git
+  268  ls
+  269  cd config
+  270  ls
+  271  cat config
+  272  cd ..
+  273  ls
+  274  rm -rf .git
+  275  ls
+  276  rm README.md
+  277  ls
+  278  echo "# PFB_problemsets" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:GabrielaFort/PFB_problemsets.git\ngit push -u origin main
+  279  ls
+  280  ls
+  281  vi .git/config
+  282  ls
+  283  vi git_exercises.txt
+  284  git remote add
+  285  ls
+  286  git add git_exercises.txt
+  287  git commit -m 'added a line of text'
+  288  git push origin main 
+  289  git status
+  290  vi .git/hooks/pre-commit
+  291  vi .git/hooks/pre-commit
+  292  ls -a
+  293  cd .git/hooks
+  294  ls
+  295  cat update.sample
+  296  cd ~/problemsets
+  297  ls
+  298  ls -la git_exercises.txt
+  299  chmod +x .git/hooks/pre-commit
+  300  git status
+  301  cd ~
+  302  pwd
+  303  git clone git@github.com:prog4biol/pfb2023.git
+  304  ls
+  305  cd pfb2023
+  306  ls
+  307  cat README.md
+  308  ls
+  309  cd problemsets
+  310  ls
+  311  cd ..
+  312  ls
+  313  cd ..
+  314  ls
+  315  cd problemsets
+  318  cd set1
+  319  ls
+  320  ls -la
+  321  du -h
+  322  cd ..
+  323  git status
+  324  git add set1
+  325  git commit -m 'adding problem set 1 files'
+  326  git push
+  327  ls
+  328  mkdir files
+  329  cd files
+  330  ls
+  331  vi mysequences.txt
+  332  ls
+  333  git add mysequences.txt
+  334  git commit -m 'testsequence'
+  335  git push
+  336  cd ..
+  337  ls
+  338  mkdir fastas
+  339  cp set1/cancer_genes.fasta fastas
+  340  cd fastas
+  341  ls
+  342  cd ..
+  343  ls
+  344  cd set1
+  345  ls
+  346  rm cancer_genes.fasta
+  347  get status
+  348  git status
+  349  vi ../.gitignore
+  355  cd problemsets
+  357  cd files
+  359  cd ..
+  361  cd fastas
+  365  git add fastas
+  366  git commit -m 'changed fasta file location'
+  367  git push 
+  369  git add set1
+  370  git commit -m 'changed fasta file location'
+  371  git push
+  372  vi oops.txt
+  373  git add oops.txt
+  374  git commit -m test_error_file
+  375  git push
+  376  git rm oops
+  377  git rm oops.txt
+  378  git commit -m 'removing oops'
+  379  git push
+  382  history > unixBasics.history.txt
+  383  vi unixBasics.history.txt
+  384  ls
+  385  git pull
+  386  git status
+  387  mv unixBasics.history.txt set1
+  388  cd set1
+  389  ls
+  390  cd ..
+  391  ls
+  392  git add set1
+  393  git commit -m 'adding history file'
+  394  git push
+  395  git pull
+  396  ls
+  397  history
+  398  history -n 100
+  399  python3
+  400  ls
+  401  vi first_python_script.py
+  402  chmod a+x first_python_script.py
+  403  ls
+  404  first_python_script.py
+  405  python3 first_python_script.py
+  406  ls -l first_python_script.py
+  407  ./first_python_script.py
+  408  vi first_python_script.py
+  409  ./first_python_script.py
+  410  vi first_python_script.py
+  411  ./first_python_script.py
+  412  vi first_python_script.py
+  413  ./first_python_script.py
+  414  vi first_python_script.py
+  415  ./first_python_script.py
+  416  vi first_python_script.py
+  417  ./first_python_script.py
+  418  vi first_python_script.py
+  419  ./first_python_script.py
+  420  vi first_python_script.py
+  421  ./first_python_script.py
+  422  cat first_python_script.py
+  423  vi first_python_script.py
+  424  ./first_python_script.py
+  425  vi first_python_script.py
+  426  ./first_python_script.py
+  427  vi first_python_script.py
+  428  ls
+  429  cd problemsets
+  430  mkdir set2
+  431  ls
+  432  mv set1 day1
+  433  mv set2 day2
+  434  ls
+  435  cd ..
+  436  ls
+  437  mv first_python_script.py problemsets/day2
+  438  cd problemsets/day2
+  439  ls
+  440  vi first_python_script.py
+  441  ./first_python_script.py Gabby Blue Swimming Cats
+  442  ./first_python_script.py Gabby Blue Swimming
+  443  vi first_python_script.py
+  444  ./first_python_script.py Gabby Blue Swimming
+  445  ./first_python_script.py Gabby Blue Swimming Pond
+  446  ls
+  447  vi first_python_script.py
+  448  ./first_python_script.py Gabby Blue Swimming Pond
+  449  vi first_python_script.py
+  450  ./first_python_script.py Gabby Blue Swimming Pond
+  451  vi first_python_script.py
+  452  ./first_python_script.py Gabby Blue Swimming Pond
+  453  ./first_python_script.py Gabby Blue Swimming Pond Gabby
+  454  vi first_python_script.py
+  455  ./first_python_script.py Gabby Blue Swimming Pond Gabby
+  456  vi first_python_script.py
+  457  ./first_python_script.py Gabby Blue Swimming Pond Gabby
+  458  ./first_python_script.py Gabby Blue Swimming Cow
+  459  vi first_python_script.py
+  460  ./first_python_script.py Gabby Blue Swimming Cow
+  461  ./first_python_script.py Gabby Blue Swimming Cow Gabby
+  462  ./first_python_script.py Gabby Blue Swimming Cow Gabby
+  463  vi first_python_script.py
+  464  ./first_python_script.py Gabby Blue Swimming Cow Gabby
+  465  vi first_python_script.py
+  466  ./first_python_script.py Gabby Blue Swimming Cow Gabby
+  467  ./first_python_script.py Gabby Blue Swimming Cow
+  468  print("hello") + print("hello")
+  469  python3
+  470  ./first_python_script.py Gabby Blue Swimming Cow
+  471  ./first_python_script.py Gabby Blue Swimming Cow Hello
+  472  ./first_python_script.py Gabby Blue Swimming Cow
+  473  vi first_python_script.py
+  474  vi first_python_script.py
+  475  ./first_python_script.py Gabby Blue Swimming Cow
+  476  ./first_python_script.py Gabby Blue Swimming Cow Gabby
+  477  vi first_python_script.py
+  478  git add first_python_script.py
+  479  git commit -m "adding first python script! Woohoo
+  480  git commit -m 'adding first python script! Woohoo'
+  481  git push
+  482  cd ..
+  483  ls
+  484  git add day1
+  485  git commit -m 'changing set1 to day1 directory'
+  486  git push
+  487  git status
+  488  ls
+  489  cd day2
+  490  ls
+  491  python3
+  492  history
+  493  history -1000
+  494  history -1000 > unix_history_to_date.txt
+  495  ls
+  496  vi unix_history_to_date.txt
+  497  ls
+  498  vi script_1.py
+  499  cat first_python_script.py
+  500  vi script_1.py
+  501  vi script_1.py
+  502  chmod a+x script_1.py
+  503  ./script_1.py 1
+  504  ./script_1.py input
+  505  vi script_1.py
+  506  ./script_1.py input
+  507  ./script_1.py 1
+  508  ./script_1.py 0
+  509  ./script_1.py int(0)
+  510  ./script_1.py ""
+  511  int('gabby')
+  512  ls
+  513  ./script_1.py 0>0
+  514  ./script_1.py (0>0)
+  515  ./script_1.py 5
+  516  ./script_1.py 0
+  517  vi script_2.py
+  518  chmod +x script_2.py
+  519  ./script_2.py 1
+  520  ./script_2.py -1
+  521  ./script_2.py -0.01
+  522  ./script_2.py 0.01
+  523  ./script_2.py 0
+  524  vi script_2.py
+  525  ./script_2.py 0
+  526  ./script_2.py 50
+  527  ./script_2.py 49
+  528  ./script_2.py 48
+  529  ./script_2.py 48.9
+  530  ./script_2.py 48.8
+  531  ./script_2.py 42
+  532  vi script_2.py
+  533  ./script_2.py 42
+  534  ./script_2.py -10
+  535  ./script_2.py 58
+  536  ./script_2.py 0
+  537  vi script_2.py
+  538  ./script_2.py 0
+  539  ./script_2.py 50
+  540  ./script_2.py 52
+  541  ./script_2.py 56
+  542  ./script_2.py 66
+  543  vi script_2.py
+  544  ./script_2.py 66
+  545  ./script_2.py 56
+  546  ./script_2.py 52
+  547  ./script_2.py 50
+  548  vi script_2.py
+  549  ./script_2.py 50
+  550  ./script_2.py 0
+  551  ./script_2.py -1
+  552  ./script_2.py -1.0
+  553  ./script_2.py 66
+  554  ./script_2.py 66.0
+  555  ls
+  556  cd 0
+  557  cat 0
+  558  rm 0
+  559  ls
