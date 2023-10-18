@@ -1,0 +1,60 @@
+Python Problem Set #4
+
+Question 1 - 
+>>> favorite_things = ['cats','climbing','running','food','craftbeer']
+>>> print(favorite_things)
+['cats', 'climbing', 'running', 'food', 'craftbeer']
+
+Printing middle element of the list: 
+>>> print(favorite_things[int(len(favorite_things)/2)])
+running
+
+Replacing middle element with a different string
+>>> favorite_things.pop(2)
+>>> favorite_things
+['cats', 'climbing', 'food', 'craftbeer']
+>>> favorite_things.insert(2,'robin')
+>>> favorite_things
+['cats', 'climbing', 'robin', 'food', 'craftbeer']
+
+add something to the end
+>>> favorite_things.append('hello')
+>>> favorite_things
+['cats', 'climbing', 'robin', 'food', 'craftbeer', 'hello']
+
+add something to the beginning
+>>> favorite_things.insert(0,'hi')
+>>> favorite_things
+['hi', 'cats', 'climbing', 'robin', 'food', 'craftbeer', 'hello']
+
+add something to the second position of the list (new index 1)
+>>> favorite_things.insert(1,'hiking')
+>>> favorite_things
+['hi', 'hiking', 'cats', 'climbing', 'robin', 'food', 'craftbeer', 'hello']
+
+remove last element
+>>> favorite_things.pop(-1)
+'hello'
+>>> favorite_things
+['hi', 'hiking', 'cats', 'climbing', 'robin', 'food', 'craftbeer']
+
+remove first element 
+>>> favorite_things.pop(0)
+'hi'
+>>> favorite_things
+['hiking', 'cats', 'climbing', 'robin', 'food', 'craftbeer']
+
+remove 2nd element from the list 
+>>> favorite_things.pop(3)
+'robin'
+>>> favorite_things
+['hiking', 'cats', 'climbing', 'food', 'craftbeer']
+
+
+next we want to join the elements in the list to create a string
+for this we learned that we have to use the string method - join 
+this is a bit confusing because it is sorta backwards from what youd think....
+
+>>> ','.join(favorite_things)
+'hiking,cats,climbing,food,craftbeer'
+
