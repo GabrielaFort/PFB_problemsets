@@ -58,3 +58,31 @@ this is a bit confusing because it is sorta backwards from what youd think....
 >>> ','.join(favorite_things)
 'hiking,cats,climbing,food,craftbeer'
 
+
+
+
+These examples below demonstrate how making a copy of the original list is important - reassigning to a new variable will chage both lists when you edit one.........
+
+>>> print(my_list)
+['bird', 'rat', 'fish']
+>>> my_list_copy=my_list
+>>> print(my_list_copy)
+['bird', 'rat', 'fish']
+>>> my_list_copy.append('bear')
+>>> print(my_list_copy)
+['bird', 'rat', 'fish', 'bear']
+>>> print(my_list)
+['bird', 'rat', 'fish', 'bear']
+>>> second_list = ['a','b','c']
+>>> second_list_copy=second_list.copy()
+>>> print(second_list)
+['a', 'b', 'c']
+>>> print(second_list_copy)
+['a', 'b', 'c']
+>>> second_list_copy.append('d')
+>>> print(second_list_copy)
+['a', 'b', 'c', 'd']
+>>> print(second_list)
+['a', 'b', 'c']
+
+
