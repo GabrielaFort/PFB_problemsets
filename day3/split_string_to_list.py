@@ -17,3 +17,13 @@ print(f'\nPrinting first index of this new list:\n{species[1]}')
 
 print(f'\nThe type of the new list:\n{type(species)}')
 
+print('\nSorting list alphabetcally:')
+species2=sorted(species, key=str.lower)
+print(species2)
+
+print('\nSorting list by number of elements in each string within the list:')
+species3=sorted(species, key=len)
+print(species3)
+
+
+
