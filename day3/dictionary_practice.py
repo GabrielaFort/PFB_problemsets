@@ -25,4 +25,12 @@ print(my_favorite_things)
 for key in my_favorite_things:
 	print(key, '=>', my_favorite_things[key])
 
+new_thing = input(f'Please add your favorite item from this list:\nDance\nFood\nWine:\n')
+new_value = input(f'Great! Now input your favorite {new_thing}:')
+
+my_favorite_things[new_thing] = new_value
+
+print('Cool, here is the new dictionary!:')
+for key in my_favorite_things:
+	print(key, '=>', my_favorite_things[key]) 
 
