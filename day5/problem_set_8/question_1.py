@@ -58,7 +58,6 @@ for line in FASTA_object:
 		for NT in NT_counts[gene_name]:
 			NT_counts[gene_name][NT] += line.count(NT)
 
-#This print statement IS NOT WORKING SOS
 #We have our listed dictionary constructed - now print it out in a nice way
 for name in NT_counts:
 	for NT in NT_counts[name]:
