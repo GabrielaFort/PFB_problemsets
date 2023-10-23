@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 import sys
 
+#This script addresses questions 2 and 3 from the Python 1 problem set
+
+
 name = sys.argv[1] #Setting up four different arguments for this script - will need to type them in this order
 fav_color = sys.argv[2]
 fav_activity = sys.argv[3]

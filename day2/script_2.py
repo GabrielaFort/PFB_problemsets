@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import sys
+#This script addresses questions 3-9 of Python #2 problem set
 
 number = float(sys.argv[1])
 
