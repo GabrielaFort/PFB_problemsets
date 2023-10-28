@@ -29,6 +29,7 @@ def count_kmers(kmer_list):
 		if not kmer in kmer_count_dict:
 			kmer_count_dict[kmer] = 1
 		else:
+			#could also do kmer_count_dict[kmer] += 1
 			previous_count = kmer_count_dict[kmer]
 			new_count = previous_count + 1
 			kmer_count_dict[kmer] = new_count 		
